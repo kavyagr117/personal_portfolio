@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Portfolio Website </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9f6b1087e2.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id = "header">
+            <div class="container">
+                <nav>
+                    <img src= "IMAGES/logo.png.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Aspiring Tech Enthusiast</p>
+                    <h1>Hi, I'm <span>Kavya GR</span><br>from Banglore!</h1>
+                </div>
+            </div>
+        </div> 
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMAGES/user.png.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello, I'm a passionate Computer Science and Engineering student with a keen interest in cybersecurity, specializing in blue team strategies for defending against digital threats. 
+                My curiosity drives me to explore emerging technologies like Generative AI while honing my skills in web development.
+                 Beyond tech, I thrive in creative spaces as a blog writer and social media coordinator, where I share insights and build engaging communities.
+                  I’m always eager to learn, grow, and make a positive impact in the digital world. </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul> 
+                        <li><span>Web Development</span><br>Designing personalised websites</li>
+                        <li><span>Programming</span><br>HTML/CSS/JS/PYTHON/C++</li>
+                        <li><span>Social Media Marketing </span><br>Expertise in Digital Marketing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>MARCH 2025</span><br>Human Resource Internship<br>TEN: Brain Research</li>
+                        <li><span>JULY 2024</span><br>Cyber Security Analyst Virtual Internship<br>Tata</S></li>
+                        <li><span>AUG 2024 </span><br>Digital Marketing Internship<br>GrrenTick</li>  
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2026</span><br>BTech[CSE] at Garden City University<br>Current CGPA: 8.8</li>
+                        <li><span>2020-2022</span><br>Pre University at MES College of Arts,Commerce and Science<br>Percentage: 86%</S></li>
+                        <li><span>2020 </span><br> SSLC at Vinodh English High School<br>Percentage: 93%</li> 
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </div>
+</div>
+<!---- services -->
+<div id="services">
+    <div class="conatiner">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Designing </h2>
+                <p> Specialize in creating modern,user-friendly, and responsive website tailored to meet the unique
+                     needs of your business. We offer customized solutions that enhance User Experience,improve 
+                    online visibility, and drive engagement.</p>
+                    <a href=>Contact for customized webpages</a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-photo-film"></i>
+                <h2> Social Media Marketing </h2>
+                <p>Boost your brand's online presence with our expert social media marketing services!
+                    We specialize in crafting tailored strategies that engage your audience ,increase visibility, and drive results.
+                    From creating eye catching content to managing campaigns across platforms like Instagram,Facebook,LinkedIn,
+                    and more, we help your business stand out in the digital landscape.
+                </p>
+                    <a href="#">Contact for personalised marketing</a>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!-------portfolio------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMAGES/work-1.png.png"> 
+                <div class="layer">
+                    <h3>Social Media Marketing</h3>
+                    <p> We Implemented a multi-platform strategy,leveraging Facebook,Instagram,Twitter,and LinkedIn to 
+                        reach diverse audience.
+                        Check out our work which helped the client to broader thier business on social media platform 
+                        Ex: Facebook
+                    </p>
+                        <a href="https://www.facebook.com/share/184vZ7AqQg/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/work-2.png"> 
+                <div class="layer">
+                    <h3>Web-Designing</h3>
+                    <p> Stand out in the digital world with a custom-designed website tailored specifically
+                         to your needs. We specialize in creating personalized websites that reflect your brand, engage your audience,
+                          and achieve your goals. Whether you're an entrepreneur, a small business owner, or a creative professional,
+                           we’ll craft a unique online presence that’s as dynamic as you are..</p>
+                    <a href="https://kavyagr117.github.io/FitPoint-with-ChatBot/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+        <a href="#" class="btn">See More </a>
+
+
+    </div>
+</div>
+<!-------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> kavyagr50@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i>+91-6366669563</p>
+                <div class="social-icons">
+                       <a href="https://www.instagram.com/pxxrvi_gowda/profilecard/?igsh=MTBjYW9mZmRvZnN5bA=="><i class="fa-brands fa-instagram"></i></a>
+                       <a href="www.linkedin.com/in/kavyagr20"><i class="fa-brands fa-linkedin"></i></a> <!----icon barakke net illa ig------>
+                       <a href="https://wa.me/6366669563"><i class="fa-brands fa-square-whatsapp"></i></a>
+
+                    
+
+                </div>
+                <a href="IMAGES/Kavya Resume_compressed (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+
+                <span id="msg"> 
+
+                </span>
+              
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @pxxrvi_gowda <3 </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script> 
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+ 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzrV2a0OteMBiyZxYDIyFklL3TM0I1JK0OjV4LkRsvEkizzZRaG_umxWEwibZTtEZUs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    </body>
+</html>
